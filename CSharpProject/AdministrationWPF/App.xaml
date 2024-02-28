@@ -1,0 +1,16 @@
+﻿<Application x:Class="AdministrationWPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AdministrationWPF"
+             xmlns:viewModel="clr-namespace:AdministrationWPF.ViewModels"
+             xmlns:views="clr-namespace:AdministrationWPF.Views">
+    <Application.Resources>
+        <DataTemplate DataType="{x:Type TypeName=viewModel:ApplicationFormViewModel}">
+            <views:ApplicationFormView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type TypeName=viewModel:HighSchoolViewModel}">
+            <views:HighSchoolView/>
+        </DataTemplate>
+    </Application.Resources>
+</Application>

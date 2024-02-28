@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "jfj2Cy+uS2/mGxZFWwbGqrq2c7nl7eKvaep2JRQu8ImHLwB/xorDPwX6Nmv6m9R2AV7h21xUgrXphjEXfWNEwQ==",
+  "success": true,
+  "projectFilePath": "D:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\msi pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\msi pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
