@@ -1,4 +1,7 @@
-﻿using AdministrationWPF.ViewModels;
+﻿using AdministrationWPF.Core;
+using AdministrationWPF.Interfaces;
+using AdministrationWPF.Services;
+using AdministrationWPF.ViewModels;
 using AdministrationWPF.Views;
 using Microsoft.Extensions.DependencyInjection;
 using System.Configuration;
@@ -24,6 +27,9 @@ namespace AdministrationWPF
             services.AddSingleton<MainViewModel>();
             services.AddSingleton<ApplicationFormViewModel>();
             services.AddSingleton<HighSchoolViewModel>();
+            services.AddSingleton<INavigationService, NavigationService>();
+
+            services.AddSingleton<Func<Type, ViewModel>>(serviceProvider => viewModelType => (ViewModel)serviceProvider.GetRequiredService(viewModelType));
 
             _serviceProvider = services.BuildServiceProvider();
         }

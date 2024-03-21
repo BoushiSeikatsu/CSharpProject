@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharpProject\\CSharpProject\\CSharpProject\\AdministrationWPF.csproj": {}
+    "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj": {}
   },
   "projects": {
-    "D:\\CSharpProject\\CSharpProject\\CSharpProject\\AdministrationWPF.csproj": {
+    "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharpProject\\CSharpProject\\CSharpProject\\AdministrationWPF.csproj",
+        "projectUniqueName": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
         "projectName": "AdministrationWPF",
-        "projectPath": "D:\\CSharpProject\\CSharpProject\\CSharpProject\\AdministrationWPF.csproj",
+        "projectPath": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
         "packagesPath": "C:\\Users\\msi pc\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharpProject\\CSharpProject\\CSharpProject\\obj\\",
+        "outputPath": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msi pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"

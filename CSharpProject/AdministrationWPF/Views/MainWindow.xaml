@@ -17,9 +17,17 @@
             <RowDefinition Height="2*"/>
             <RowDefinition Height="1.2*"/>
         </Grid.RowDefinitions>
-        <DataGrid Grid.Row="1" Grid.Column="1">
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+            <Button Content="Přihlášky" Height="20" Width="100" HorizontalAlignment="Left" Margin="5 5"
+                    Command="{Binding NavigateApplicationFormCommand}"
+                    />
+            <Button Content="Školy" Height="20" Width="100" HorizontalAlignment="Left" Margin="5 5"
+                    Command="{Binding NavigateHighSchoolCommand}"
+                    />
+        </StackPanel>
+        <ContentControl Grid.Row="1" Grid.Column="1" Content="{Binding Navigation.CurrentView}">
             
-        </DataGrid>
+        </ContentControl>
         <ListBox Grid.Row="2" Grid.Column="1">
             
         </ListBox>

@@ -8,6 +8,11 @@ namespace AdministrationWPF.Models
 {
     internal class HighSchool
     {
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string PSC { get; set; }
         public List<StudyProgram> StudyProgramList { get; set; }
         public HighSchool() 
         {
