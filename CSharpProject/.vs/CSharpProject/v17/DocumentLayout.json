@@ -1,53 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CSharpProject\\CSharpProject\\",
+  "WorkspaceRootPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\models\\createapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\models\\createapplicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\models\\applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\models\\applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\models\\studyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\models\\studyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\models\\highschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\models\\highschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\datalayer\\orm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\datalayer\\orm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\datalayer\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\datalayer\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\models\\applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\models\\applicationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\views\\highschoolview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\views\\highschoolview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\models\\highschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\models\\highschool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\views\\applicationformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\views\\applicationformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\views\\applicationformview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\viewmodels\\applicationformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\viewmodels\\applicationformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\models\\studyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\models\\studyprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\administrationwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\administrationwpf.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\interfaces\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\interfaces\\idatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\views\\highschoolview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\views\\highschoolview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpproject\\csharpproject\\administrationwpf\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\administrationwpf\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A7FFE2-16F7-47C4-A210-02B574F13987}|AdministrationWPF\\AdministrationWPF.csproj|solutionrelative:administrationwpf\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,102 +94,158 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatabaseService.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Services\\DatabaseService.cs",
-              "RelativeDocumentMoniker": "AdministrationWPF\\Services\\DatabaseService.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Services\\DatabaseService.cs",
-              "RelativeToolTip": "AdministrationWPF\\Services\\DatabaseService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T14:43:33.065Z",
+              "DocumentIndex": 2,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Views\\Home\\Form.cshtml",
+              "RelativeDocumentMoniker": "UserSideWEB\\Views\\Home\\Form.cshtml",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Views\\Home\\Form.cshtml",
+              "RelativeToolTip": "UserSideWEB\\Views\\Home\\Form.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAawCMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T12:37:52.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationForm.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\ApplicationForm.cs",
-              "RelativeDocumentMoniker": "AdministrationWPF\\Models\\ApplicationForm.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\ApplicationForm.cs",
-              "RelativeToolTip": "AdministrationWPF\\Models\\ApplicationForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UserSideWEB\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T14:38:39.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudyProgram.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\StudyProgram.cs",
-              "RelativeDocumentMoniker": "AdministrationWPF\\Models\\StudyProgram.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\StudyProgram.cs",
-              "RelativeToolTip": "AdministrationWPF\\Models\\StudyProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T14:35:55.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HighSchool.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\HighSchool.cs",
-              "RelativeDocumentMoniker": "AdministrationWPF\\Models\\HighSchool.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\HighSchool.cs",
-              "RelativeToolTip": "AdministrationWPF\\Models\\HighSchool.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T14:35:03.301Z",
+              "WhenOpened": "2024-04-28T09:23:16.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "AdministrationWPF\\Models\\Student.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\Student.cs",
-              "RelativeToolTip": "AdministrationWPF\\Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Title": "DataLayer.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\DataLayer\\DataLayer.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\DataLayer\\DataLayer.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\DataLayer\\DataLayer.cs",
+              "RelativeToolTip": "UserSideWEB\\DataLayer\\DataLayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T14:31:10.677Z",
+              "WhenOpened": "2024-04-28T08:34:13.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ORM.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\DataLayer\\ORM.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\DataLayer\\ORM.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\DataLayer\\ORM.cs",
+              "RelativeToolTip": "UserSideWEB\\DataLayer\\ORM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:17:08.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AdministrationWPF\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AdministrationWPF\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:12:10.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudyProgram.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\StudyProgram.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\Models\\StudyProgram.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\StudyProgram.cs",
+              "RelativeToolTip": "UserSideWEB\\Models\\StudyProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:09:07.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\Models\\Student.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\Student.cs",
+              "RelativeToolTip": "UserSideWEB\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:09:03.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HighSchoolView.xaml",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolView.xaml",
-              "RelativeDocumentMoniker": "AdministrationWPF\\Views\\HighSchoolView.xaml",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolView.xaml",
-              "RelativeToolTip": "AdministrationWPF\\Views\\HighSchoolView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-28T21:30:31.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ApplicationFormView.xaml",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\ApplicationFormView.xaml",
-              "RelativeDocumentMoniker": "AdministrationWPF\\Views\\ApplicationFormView.xaml",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\ApplicationFormView.xaml",
-              "RelativeToolTip": "AdministrationWPF\\Views\\ApplicationFormView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-28T21:28:00.555Z"
+              "Title": "HighSchool.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\HighSchool.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\Models\\HighSchool.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\HighSchool.cs",
+              "RelativeToolTip": "UserSideWEB\\Models\\HighSchool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:09:00.978Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ApplicationForm.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\ApplicationForm.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\Models\\ApplicationForm.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\ApplicationForm.cs",
+              "RelativeToolTip": "UserSideWEB\\Models\\ApplicationForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T08:08:39.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "AdministrationWPF\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "AdministrationWPF\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T20:45:15.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationFormViewModel.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\ApplicationFormViewModel.cs",
+              "RelativeDocumentMoniker": "AdministrationWPF\\ViewModels\\ApplicationFormViewModel.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\ApplicationFormViewModel.cs",
+              "RelativeToolTip": "AdministrationWPF\\ViewModels\\ApplicationFormViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T09:44:44.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\MainWindow.xaml",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml",
               "RelativeToolTip": "AdministrationWPF\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-02-28T21:17:34.878Z",
@@ -161,51 +253,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "ApplicationFormView.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\ApplicationFormView.xaml",
+              "RelativeDocumentMoniker": "AdministrationWPF\\Views\\ApplicationFormView.xaml",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\ApplicationFormView.xaml",
+              "RelativeToolTip": "AdministrationWPF\\Views\\ApplicationFormView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T21:28:00.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HighSchoolView.xaml",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolView.xaml",
+              "RelativeDocumentMoniker": "AdministrationWPF\\Views\\HighSchoolView.xaml",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolView.xaml",
+              "RelativeToolTip": "AdministrationWPF\\Views\\HighSchoolView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T21:30:31.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdministrationWPF.csproj",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
+              "RelativeDocumentMoniker": "AdministrationWPF\\AdministrationWPF.csproj",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
+              "RelativeToolTip": "AdministrationWPF\\AdministrationWPF.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-21T08:40:33.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "INavigationService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Interfaces\\INavigationService.cs",
+              "RelativeDocumentMoniker": "AdministrationWPF\\Interfaces\\INavigationService.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Interfaces\\INavigationService.cs",
+              "RelativeToolTip": "AdministrationWPF\\Interfaces\\INavigationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T08:41:06.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IDatabaseService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Interfaces\\IDatabaseService.cs",
+              "RelativeDocumentMoniker": "AdministrationWPF\\Interfaces\\IDatabaseService.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Interfaces\\IDatabaseService.cs",
+              "RelativeToolTip": "AdministrationWPF\\Interfaces\\IDatabaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T08:42:09.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Core\\RelayCommand.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Core\\RelayCommand.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Core\\RelayCommand.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Core\\RelayCommand.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Core\\RelayCommand.cs",
               "RelativeToolTip": "AdministrationWPF\\Core\\RelayCommand.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T20:52:59.751Z"
+              "WhenOpened": "2024-02-28T20:52:59.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "AdministrationWPF\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "AdministrationWPF\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T20:45:15.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\App.xaml.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\App.xaml.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\App.xaml.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\App.xaml.cs",
               "RelativeToolTip": "AdministrationWPF\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T20:41:16.115Z"
+              "WhenOpened": "2024-02-28T20:41:16.115Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "NavigationService.cs",
-              "DocumentMoniker": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Services\\NavigationService.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Services\\NavigationService.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Services\\NavigationService.cs",
-              "ToolTip": "D:\\CSharpProject\\CSharpProject\\AdministrationWPF\\Services\\NavigationService.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Services\\NavigationService.cs",
               "RelativeToolTip": "AdministrationWPF\\Services\\NavigationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T20:26:10.174Z"
+              "WhenOpened": "2024-02-28T20:26:10.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateApplicationForm.cs",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\CreateApplicationForm.cs",
+              "RelativeDocumentMoniker": "UserSideWEB\\Models\\CreateApplicationForm.cs",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\CreateApplicationForm.cs*",
+              "RelativeToolTip": "UserSideWEB\\Models\\CreateApplicationForm.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T12:15:21.014Z",
+              "EditorCaption": ""
             }
           ]
         }

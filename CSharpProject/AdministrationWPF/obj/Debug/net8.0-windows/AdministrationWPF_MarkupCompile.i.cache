@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\CSharpProject\CSharpProject\AdministrationWPF\obj\Debug\net8.0-windows\
+D:\CSharpProjects\CSharpProject\CSharpProject\AdministrationWPF\obj\Debug\net8.0-windows\
 AdministrationWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\CSharpProject\CSharpProject\AdministrationWPF\App.xaml
+D:\CSharpProjects\CSharpProject\CSharpProject\AdministrationWPF\App.xaml
 31342280308
 
-222117949781
-2391704234174
+17-665169891
+243-1311145736
 Views\ApplicationFormView.xaml;Views\HighSchoolView.xaml;Views\MainWindow.xaml;
 
-False
+True
 

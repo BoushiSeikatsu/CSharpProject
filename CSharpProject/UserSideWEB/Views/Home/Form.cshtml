@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CreateApplicationForm
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(x => x.id_card)
+        @Html.TextBoxFor(x => x.id_card)
+        @Html.ValidationMessageFor(x => x.id_card)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.FirstName)
+        @Html.TextBoxFor(x => x.FirstName)
+        @Html.ValidationMessageFor(x => x.FirstName)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.LastName)
+        @Html.TextBoxFor(x => x.LastName)
+        @Html.ValidationMessageFor(x => x.LastName)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Email)
+        @Html.TextBoxFor(x => x.Email)
+        @Html.ValidationMessageFor(x => x.Email)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Street)
+        @Html.TextBoxFor(x => x.Street)
+        @Html.ValidationMessageFor(x => x.Street)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.City)
+        @Html.TextBoxFor(x => x.City)
+        @Html.ValidationMessageFor(x => x.City)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.PSC)
+        @Html.TextBoxFor(x => x.PSC)
+        @Html.ValidationMessageFor(x => x.PSC)
+    </div>
+    <button type ="submit">Odeslat</button>
+}

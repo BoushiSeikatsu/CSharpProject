@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdministrationWPF.Models
+namespace UderSideWEB.Models
 {
-    internal class HighSchool
+    public class HighSchool
     {
-        public int ID { get; set; }
+        public int Id_school { get; }
         public string Name { get; set; }
         public string Street { get; set; }
         public string City { get; set; }

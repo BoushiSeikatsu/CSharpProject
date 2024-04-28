@@ -10,6 +10,7 @@
         <DataGrid>
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Název"/>
+                <DataGridTextColumn Header=""></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

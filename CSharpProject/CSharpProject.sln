@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdministrationWPF", "Admini
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserSideWEB", "UserSideWEB\UserSideWEB.csproj", "{FC298371-2FB2-4364-9270-75FC104087E9}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{4C055E75-A0AD-4042-8A26-D14529B27F8B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +21,6 @@ Global
 		{FC298371-2FB2-4364-9270-75FC104087E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC298371-2FB2-4364-9270-75FC104087E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC298371-2FB2-4364-9270-75FC104087E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C055E75-A0AD-4042-8A26-D14529B27F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C055E75-A0AD-4042-8A26-D14529B27F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C055E75-A0AD-4042-8A26-D14529B27F8B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4C055E75-A0AD-4042-8A26-D14529B27F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C055E75-A0AD-4042-8A26-D14529B27F8B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C055E75-A0AD-4042-8A26-D14529B27F8B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

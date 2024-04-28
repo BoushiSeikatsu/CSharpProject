@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "jfj2Cy+uS2/mGxZFWwbGqrq2c7nl7eKvaep2JRQu8ImHLwB/xorDPwX6Nmv6m9R2AV7h21xUgrXphjEXfWNEwQ==",
+  "dgSpecHash": "Mj4as5wuI1pGbZZIykHVhzEMQ5OHQWbBnuz8X5bT7FDsteG/9EMUkqGmE1gbQ5qPR3yr83Yt1jCmrG2tCJJzFA==",
   "success": true,
-  "projectFilePath": "D:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
+  "projectFilePath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\msi pc\\.nuget\\packages\\microsoft.data.sqlite\\8.0.4\\microsoft.data.sqlite.8.0.4.nupkg.sha512",
+    "C:\\Users\\msi pc\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.4\\microsoft.data.sqlite.core.8.0.4.nupkg.sha512",
     "C:\\Users\\msi pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\msi pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\msi pc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\msi pc\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\msi pc\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\msi pc\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\msi pc\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\msi pc\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
 }

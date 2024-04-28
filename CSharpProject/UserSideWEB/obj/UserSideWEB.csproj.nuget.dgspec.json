@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {}
+    "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {}
   },
   "projects": {
-    "D:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {
+    "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
+        "projectUniqueName": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
         "projectName": "UserSideWEB",
-        "projectPath": "D:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
+        "projectPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
         "packagesPath": "C:\\Users\\msi pc\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharpProject\\CSharpProject\\UserSideWEB\\obj\\",
+        "outputPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\msi pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"

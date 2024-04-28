@@ -9,39 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UserSideWEB
 build_property.RootNamespace = UserSideWEB
-build_property.ProjectDir = D:\CSharpProject\CSharpProject\UserSideWEB\
+build_property.ProjectDir = D:\CSharpProjects\CSharpProject\CSharpProject\UserSideWEB\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\CSharpProject\CSharpProject\UserSideWEB
+build_property.MSBuildProjectDirectory = D:\CSharpProjects\CSharpProject\CSharpProject\UserSideWEB
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/CSharpProject/CSharpProject/UserSideWEB/Views/Home/Index.cshtml]
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/Home/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/Home/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharpProject/CSharpProject/UserSideWEB/Views/Home/Privacy.cshtml]
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharpProject/CSharpProject/UserSideWEB/Views/Shared/Error.cshtml]
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharpProject/CSharpProject/UserSideWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharpProject/CSharpProject/UserSideWEB/Views/_ViewImports.cshtml]
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharpProject/CSharpProject/UserSideWEB/Views/_ViewStart.cshtml]
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSharpProject/CSharpProject/UserSideWEB/Views/Shared/_Layout.cshtml]
+[D:/CSharpProjects/CSharpProject/CSharpProject/UserSideWEB/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-o3nmjbreby

@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdministrationWPF.Models
+namespace UderSideWEB.Models
 {
-    internal class Student
+    public class Student
     {
-        public string ID_Card { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public int Id_card { get; }
+        public string First_name { get; set; }
+        public string Last_name { get; set; }
         public string Email { get; set; }
         public string Street { get; set; }
         public string City { get; set; }

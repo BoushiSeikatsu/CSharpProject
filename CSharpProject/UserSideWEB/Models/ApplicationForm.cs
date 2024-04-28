@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdministrationWPF.Models
+namespace UderSideWEB.Models
 {
-    internal class ApplicationForm
+    public class ApplicationForm
     {
+        public int ID { get;}
         public Student Student { get; }
         public List<StudyProgram> StudyPrograms { get; }
         public ApplicationForm(Student student)
