@@ -37,8 +37,9 @@ namespace UserSideWEB.Controllers
         {
             return View();
         }
-        public IActionResult Form()
+        public async Task<IActionResult> Form()
         {
+            var listOfHighSchools = await _dataLayer.GetAllStudyProgramsAsync();
             return View();
         }
 

@@ -22,7 +22,7 @@ namespace UserSideWEB.Models
         [Display(Name = "Město")]
         [Required]
         public string City { get; set; }
-        [Display(Name = "¨PSC")]
+        [Display(Name = "PSČ")]
         [Required]
         public string PSC { get; set; }
     }

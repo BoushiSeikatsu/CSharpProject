@@ -13,5 +13,15 @@ namespace UserSideWEB.DataLayer
         {
             return await orm.GetAll<HighSchool>();
         }
+
+        public async Task<List<Student>> GetAllStudentsAsync()
+        {
+            return await orm.GetAll<Student>();
+        }
+
+        public async Task<List<StudyProgram>> GetAllStudyProgramsAsync()
+        {
+            return await orm.GetAll<StudyProgram>();
+        }
     }
 }

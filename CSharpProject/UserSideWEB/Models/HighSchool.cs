@@ -8,15 +8,15 @@ namespace UderSideWEB.Models
 {
     public class HighSchool
     {
-        public int Id_school { get; }
+        public long Id_school { get; set; }
         public string Name { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
         public string PSC { get; set; }
-        public List<StudyProgram> StudyProgramList { get; set; }
+        //public List<StudyProgram> StudyProgramList { get; set; }
         public HighSchool() 
         {
-            StudyProgramList = new List<StudyProgram>();
+            //StudyProgramList = new List<StudyProgram>();
         }
     }
 }

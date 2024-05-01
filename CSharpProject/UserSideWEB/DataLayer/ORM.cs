@@ -294,8 +294,8 @@ namespace UserSideWEB.DataLayer
             using (connection = this.connection)
             {
                 await connection.OpenAsync();
-                String commandString = "select * ";
-                /*foreach (PropertyInfo propertyInfo in propertyInfos)
+                String commandString = "select ";
+                foreach (PropertyInfo propertyInfo in propertyInfos)
                 {
                     commandString += propertyInfo.Name;
                     // trailing commas, yay
@@ -308,7 +308,7 @@ namespace UserSideWEB.DataLayer
                     {
                         commandString += ", ";
                     }
-                }*/
+                }
                 commandString += "from " + type.Name;
                 using (var command = connection.CreateCommand())
                 {
