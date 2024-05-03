@@ -24,7 +24,7 @@ CONSTRAINT FK_ProgramSchool FOREIGN KEY (id_school) REFERENCES highschool(id_sch
 );
 CREATE TABLE ApplicationForm(
 id_form INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-id_student int NOT NULL,
+id_student VARCHAR(9) NOT NULL,
 date_submit DATETIME NOT NULL
 );
 CREATE TABLE ProgramApplication(

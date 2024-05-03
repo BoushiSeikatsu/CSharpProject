@@ -1229,6 +1229,23 @@
             "rid": "win"
           }
         }
+      },
+      "UserSideWEB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Data.Sqlite": "8.0.4",
+          "Microsoft.Extensions.DependencyInjection": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserSideWEB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserSideWEB.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3189,6 +3206,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "UserSideWEB/1.0.0": {
+      "type": "project",
+      "path": "../UserSideWEB/UserSideWEB.csproj",
+      "msbuildProject": "../UserSideWEB/UserSideWEB.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3196,23 +3218,24 @@
       "Dapper >= 2.1.35",
       "Microsoft.Data.Sqlite >= 8.0.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
-      "Microsoft.Extensions.DependencyInjection >= 8.0.0"
+      "Microsoft.Extensions.DependencyInjection >= 8.0.0",
+      "UserSideWEB >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\msi pc\\.nuget\\packages\\": {}
+    "C:\\Users\\Michal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
+      "projectUniqueName": "E:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
       "projectName": "AdministrationWPF",
-      "projectPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
-      "packagesPath": "C:\\Users\\msi pc\\.nuget\\packages\\",
-      "outputPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\obj\\",
+      "projectPath": "E:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
+      "packagesPath": "C:\\Users\\Michal\\.nuget\\packages\\",
+      "outputPath": "E:\\CSharpProject\\CSharpProject\\AdministrationWPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\msi pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Michal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3225,7 +3248,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {
+              "projectPath": "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3279,7 +3306,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

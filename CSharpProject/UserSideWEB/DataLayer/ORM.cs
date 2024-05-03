@@ -93,7 +93,7 @@ namespace UserSideWEB.DataLayer
         /// <typeparam name="T"></typeparam>
         /// <param name="id"></param>
         /// <returns></returns>
-        public async Task<T> Get<T>(long id)
+        public async Task<T> Get<T,IDType>(IDType id)
         {
             Type type = typeof(T);
             PropertyInfo[] propertyInfos = type.GetProperties();

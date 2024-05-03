@@ -4,13 +4,40 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:AdministrationWPF.Views"
-             mc:Ignorable="d" 
+             xmlns:ViewModel="clr-namespace:AdministrationWPF.ViewModels"
+             mc:Ignorable="d"
+             Loaded="UserControl_Loaded"
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <DataGrid>
+        <DataGrid ItemsSource="{Binding Applications}" Grid.Row="0" Margin="10" Name="mujGrid" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Název"/>
-                <DataGridTextColumn Header=""></DataGridTextColumn>
+                <DataGridTextColumn Header="Číslo přihlášky" Binding="{Binding Id_form}"/>
+                <DataGridTextColumn Header="Datum podání" Binding="{Binding Date_submit}"/>
+                <DataGridTextColumn Header="Jméno studenta" Binding="{Binding Student.Id_card}"/>
+                <DataGridTemplateColumn Header="Programy">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ItemsControl ItemsSource="{Binding StudyPrograms}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding School.Name}" Margin="2"/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <!--<Button Content="Odstranit" Click="DeleteCustomer"/>-->
+                                <!--<Button Content="Anonymizovat" Click="AnonymizeCustomer"/>-->
+                                <!--<Button Content="Edit" Click="EditCustomer"/>-->
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

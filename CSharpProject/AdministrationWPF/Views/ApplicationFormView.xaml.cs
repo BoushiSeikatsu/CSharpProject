@@ -22,7 +22,13 @@ namespace AdministrationWPF.Views
     {
         public ApplicationFormView()
         {
+
             InitializeComponent();
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine(this.DataContext);
         }
     }
 }

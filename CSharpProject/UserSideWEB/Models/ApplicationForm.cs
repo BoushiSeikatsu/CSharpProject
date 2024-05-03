@@ -8,13 +8,11 @@ namespace UderSideWEB.Models
 {
     public class ApplicationForm
     {
-        public int ID { get;}
-        public Student Student { get; }
-        public List<StudyProgram> StudyPrograms { get; }
-        public ApplicationForm(Student student)
+        public long Id_form { get; set; }
+        public string Id_student { get; set; }
+        public DateTime Date_submit {  get; set; }
+        public ApplicationForm()
         {
-            Student = student;
-            StudyPrograms = new List<StudyProgram>();
         }
     }
 }

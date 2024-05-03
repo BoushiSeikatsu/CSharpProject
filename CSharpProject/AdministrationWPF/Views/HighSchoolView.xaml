@@ -7,9 +7,24 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <DataGrid>
+        <DataGrid ItemsSource="{Binding Customers}" Grid.Row="0" Margin="10" Name="mujGrid" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID"/>
+                <DataGridTextColumn Header="Číslo školy" Binding="{Binding Id_school}"/>
+                <DataGridTextColumn Header="Název" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Ulice" Binding="{Binding Street}"/>
+                <DataGridTextColumn Header="Město" Binding="{Binding City}"/>
+                <DataGridTextColumn Header="PSC" Binding="{Binding PSC}"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="5">
+                                <!--<Button Content="Odstranit" Click="DeleteCustomer"/>-->
+                                <!--<Button Content="Anonymizovat" Click="AnonymizeCustomer"/>-->
+                                <!--<Button Content="Edit" Click="EditCustomer"/>-->
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

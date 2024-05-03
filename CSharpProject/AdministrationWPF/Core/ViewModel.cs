@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdministrationWPF.Core
 {
-    internal abstract class ViewModel : ObservableObject
+    public abstract class ViewModel : ObservableObject
     {
     }
 }
