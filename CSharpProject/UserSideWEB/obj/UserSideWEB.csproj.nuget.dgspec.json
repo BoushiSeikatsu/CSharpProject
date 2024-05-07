@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {}
+    "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {}
   },
   "projects": {
-    "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {
+    "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
+        "projectUniqueName": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
         "projectName": "UserSideWEB",
-        "projectPath": "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
-        "packagesPath": "C:\\Users\\Michal\\.nuget\\packages\\",
-        "outputPath": "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\obj\\",
+        "projectPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj",
+        "packagesPath": "C:\\Users\\msi pc\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\msi pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

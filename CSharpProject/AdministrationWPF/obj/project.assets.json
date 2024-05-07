@@ -3223,19 +3223,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Michal\\.nuget\\packages\\": {}
+    "C:\\Users\\msi pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
+      "projectUniqueName": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
       "projectName": "AdministrationWPF",
-      "projectPath": "E:\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
-      "packagesPath": "C:\\Users\\Michal\\.nuget\\packages\\",
-      "outputPath": "E:\\CSharpProject\\CSharpProject\\AdministrationWPF\\obj\\",
+      "projectPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
+      "packagesPath": "C:\\Users\\msi pc\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Michal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\msi pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3249,8 +3249,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {
-              "projectPath": "E:\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj"
+            "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj": {
+              "projectPath": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\UserSideWEB.csproj"
             }
           }
         }
@@ -3306,7 +3306,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

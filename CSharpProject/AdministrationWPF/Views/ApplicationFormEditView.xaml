@@ -1,0 +1,32 @@
+﻿<Window x:Class="AdministrationWPF.Views.ApplicationFormEditView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdministrationWPF.Views"
+        mc:Ignorable="d"
+        Title="ApplicationFormEditView" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <DockPanel>
+                <Label Content="Datum"/>
+                <DatePicker SelectedDate="{Binding Date_submit}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Občanský průkaz studenta"/>
+                <TextBox Text="{Binding Student.Id_card}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Studijní programy"/>
+                <ItemsControl ItemsSource="{Binding StudyPrograms}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding School.Name}" Margin="2"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </DockPanel>
+            <Button Content="Potvrdit" Width="100" HorizontalAlignment="Right" Margin="10" Click="ConfirmApplicationForm"/>
+        </StackPanel>
+    </Grid>
+</Window>

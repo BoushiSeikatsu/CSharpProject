@@ -1,0 +1,30 @@
+﻿<Window x:Class="AdministrationWPF.Views.HighSchoolEditView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdministrationWPF.Views"
+        mc:Ignorable="d"
+        Title="HighSchoolEditView" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <DockPanel>
+                <Label Content="Název školy"/>
+                <TextBox Text="{Binding Name}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Ulice"/>
+                <TextBox Text="{Binding Street}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="Město"/>
+                <TextBox Text="{Binding City}"/>
+            </DockPanel>
+            <DockPanel>
+                <Label Content="PSČ"/>
+                <TextBox Text="{Binding PSC}"/>
+            </DockPanel>
+            <Button Content="Potvrdit" Width="100" HorizontalAlignment="Right" Margin="10" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

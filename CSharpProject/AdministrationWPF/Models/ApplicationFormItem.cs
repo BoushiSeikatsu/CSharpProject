@@ -32,6 +32,7 @@ namespace AdministrationWPF.Models
 
         public ApplicationFormItem()
         {
+            _student = new Student();
             StudyPrograms = new ObservableCollection<StudyProgramItem>();
         }
         public ApplicationFormItem(long id_form, DateTime date_submit, Student student, ObservableCollection<StudyProgramItem> studyPrograms)

@@ -19,7 +19,9 @@ namespace AdministrationWPF.ViewModels
 
         public HighSchoolViewModel()
         {
-            string dbPath = @"E:\CSharpProject\CSharpProject\UserSideWEB\mydb.db";
+            //D:\CSharpProjects\CSharpProject\CSharpProject\UserSideWEB\mydb.db
+            //E:\CSharpProject\CSharpProject\UserSideWEB\mydb.db
+            string dbPath = @"D:\CSharpProjects\CSharpProject\CSharpProject\UserSideWEB\mydb.db";
             _dataLayer = new DataLayer(@"Data source=" + dbPath);
             HighSchools = new ObservableCollection<HighSchoolItem>();
         }
@@ -43,6 +45,39 @@ namespace AdministrationWPF.ViewModels
         {
             await _dataLayer.DeleteHighSchoolAsync(item.Id_school);
             HighSchools.Remove(item);
+        }
+
+        public async Task UpdateSchool(HighSchoolItem item)
+        {
+            HighSchool school = new HighSchool();
+            school.Id_school = item.Id_school;
+            school.Name = item.Name;
+            school.Street = item.Street;
+            school.City = item.City;
+            school.PSC = item.PSC;
+            //Update in db
+            await _dataLayer.UpdateHighSchoolAsync(school);
+            //Update in app
+            for(int i = 0;i<HighSchools.Count;i++)
+            {
+                if (HighSchools[i].Id_school ==  item.Id_school)
+                {
+                    HighSchools[i] = item; break;
+                }
+            }
+        }
+        public async Task InsertSchool(HighSchoolItem item)
+        {
+            HighSchool school = new HighSchool();
+            school.Name = item.Name;
+            school.Street = item.Street;
+            school.City = item.City;
+            school.PSC = item.PSC;
+            await _dataLayer.InsertHighSchoolAsync(school);
+            //Get last record, that is newly inserted one and get its generated id
+            List<HighSchool> allApps = await _dataLayer.GetAllHighSchoolsAsync();
+            item.Id_school = allApps.Last().Id_school;
+            HighSchools.Add(item);
         }
     }
 }

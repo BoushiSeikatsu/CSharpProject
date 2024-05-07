@@ -155,7 +155,7 @@ namespace UserSideWEB.DataLayer
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="value"></param>
-        public async Task Update<T>(long oldId, T value)
+        public async Task Update<T>(T value)
         {
             Type type = typeof(T);
             PropertyInfo[] propertyInfos = type.GetProperties();
@@ -163,12 +163,13 @@ namespace UserSideWEB.DataLayer
             {
                 await connection.OpenAsync();
                 String commandString = "update " + type.Name + " set ";
-                foreach (PropertyInfo propertyInfo in propertyInfos)
+                //i starts at 1 to skip id
+                for(int i = 1;i<propertyInfos.Length;i++)
                 {
-                    commandString += propertyInfo.Name + " = @" + propertyInfo.Name;
+                    commandString += propertyInfos[i].Name + " = @" + propertyInfos[i].Name;
                     // trailing commas, yay
                     PropertyInfo last = propertyInfos.Last();
-                    if (propertyInfo == last)
+                    if (propertyInfos[i] == last)
                     {
                         commandString += " ";
                     }
@@ -177,43 +178,48 @@ namespace UserSideWEB.DataLayer
                         commandString += ", ";
                     }
                 }
-                commandString += "where Id = @OldId";
-                Console.WriteLine(commandString);
-
+                commandString += "where " + propertyInfos[0].Name + " = @OldId";
                 using (var command = connection.CreateCommand())
                 {
                     command.CommandText = commandString;
-                    foreach (PropertyInfo propertyInfo in propertyInfos)
+                    //i starts at 1 to skip id
+                    for(int i = 1;i<propertyInfos.Length;i++)
                     {
-                        command.Parameters.AddWithValue(propertyInfo.Name, propertyInfo.GetValue(value));
+                        command.Parameters.AddWithValue(propertyInfos[i].Name, propertyInfos[i].GetValue(value));
                     }
-                    command.Parameters.AddWithValue("OldId", oldId);
+                    command.Parameters.AddWithValue("OldId", propertyInfos[0].GetValue(value));
                     await command.ExecuteNonQueryAsync();
                 }
             }
         }
 
         /// <summary>
-        /// Inserts into the table. Return value is the new ID
+        /// Inserts row into table
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        /// <param name="value"></param>
+        /// <param name="value">Row to be added</param>
+        /// <param name="autoID">If table uses auto_increment or no</param>
         /// <returns></returns>
-        public async Task<int> Insert<T>(T value)
+        public async Task Insert<T>(T value, bool autoID = true)
         {
             Type type = typeof(T);
             PropertyInfo[] propertyInfos = type.GetProperties();
-            int newID = await this.GetCount<T>() + 1;
+            int i = 0;
+            if(autoID)
+            {
+                //Skip first column
+                i = 1;
+            }
             using (var connection = this.connection)
             {
                 await connection.OpenAsync();
                 String commandString = "insert into " + type.Name + " (";
-                foreach (PropertyInfo propertyInfo in propertyInfos)
+                for(;i<propertyInfos.Length;i++)
                 {
-                    commandString += propertyInfo.Name;
+                    commandString += propertyInfos[i].Name;
                     // trailing commas, yay
                     PropertyInfo last = propertyInfos.Last();
-                    if (propertyInfo == last)
+                    if (propertyInfos[i] == last)
                     {
                         commandString += ") ";
                     }
@@ -221,14 +227,20 @@ namespace UserSideWEB.DataLayer
                     {
                         commandString += ", ";
                     }
+                }
+                i = 0;
+                if (autoID)
+                {
+                    //Skip first column
+                    i = 1;
                 }
                 commandString += "values (";
-                foreach (PropertyInfo propertyInfo in propertyInfos)
+                for (; i < propertyInfos.Length; i++)
                 {
-                    commandString += "@" + propertyInfo.Name;
+                    commandString += "@" + propertyInfos[i].Name;
                     // trailing commas, yay
                     PropertyInfo last = propertyInfos.Last();
-                    if (propertyInfo == last)
+                    if (propertyInfos[i] == last)
                     {
                         commandString += ") ";
                     }
@@ -237,25 +249,22 @@ namespace UserSideWEB.DataLayer
                         commandString += ", ";
                     }
                 }
-                Console.WriteLine(commandString);
+                i = 0;
+                if (autoID)
+                {
+                    //Skip first column
+                    i = 1;
+                }
                 using (var command = connection.CreateCommand())
                 {
                     command.CommandText = commandString;
-                    foreach (PropertyInfo propertyInfo in propertyInfos)
+                    for(;i<propertyInfos.Length;i++)
                     {
-                        if (propertyInfo.Name != "Id")
-                        {
-                            command.Parameters.AddWithValue(propertyInfo.Name, propertyInfo.GetValue(value));
-                        }
-                        else
-                        {
-                            command.Parameters.AddWithValue(propertyInfo.Name, newID);
-                        }
+                        command.Parameters.AddWithValue(propertyInfos[i].Name, propertyInfos[i].GetValue(value));
                     }
                     await command.ExecuteNonQueryAsync();
                 }
             }
-            return newID;
         }
 
 
