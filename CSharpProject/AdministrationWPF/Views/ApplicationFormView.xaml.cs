@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdministrationWPF.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,9 +27,9 @@ namespace AdministrationWPF.Views
             InitializeComponent();
         }
 
-        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        private async void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine(this.DataContext);
+           await (this.DataContext as ApplicationFormViewModel).CreateApplicationsAsync();
         }
     }
 }

@@ -64,10 +64,9 @@ namespace UserSideWEB.DataLayer
             {
                 foreach(ProgramApplication join in appJoins)
                 {
-                    if(program.Id_program == join.Id_prog)
+                    if(program.Id_program == join.Id_program)
                     {
                         result.Add(program);
-                        appJoins.Remove(join);
                     }
                 }
             }
@@ -84,6 +83,28 @@ namespace UserSideWEB.DataLayer
         {
             HighSchool hs = await orm.Get<HighSchool, long>(id_school);
             return hs;
+        }
+        public async Task DeleteProgramFromApplications(long id_program)
+        {
+            await orm.Delete<ProgramApplication>(id_program,1);
+        }
+        public async Task DeleteStudyProgramAsync(long id_program)
+        {
+            List<ProgramApplication> connections = await orm.GetAll<ProgramApplication>();
+            foreach(ProgramApplication connection in connections)
+            {
+                await DeleteProgramFromApplications(connection.Id_program);
+            }
+            await orm.Delete<StudyProgram>(id_program); 
+        }
+        public async Task DeleteHighSchoolAsync(long id_school)
+        {
+            List<StudyProgram> programs = await orm.GetAll<StudyProgram>();
+            foreach(StudyProgram program in programs)
+            {
+                DeleteStudyProgramAsync(program.Id_program);
+            }
+            await orm.Delete<HighSchool>(id_school);
         }
     }
 }

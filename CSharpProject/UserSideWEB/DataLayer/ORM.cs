@@ -119,7 +119,7 @@ namespace UserSideWEB.DataLayer
                     }
                 }
 
-                commandString += "from " + type.Name + " where Id = @Id";
+                commandString += "from " + type.Name + " where " + propertyInfos[0].Name + " = @Id";
                 Console.WriteLine(commandString);
 
 
@@ -339,13 +339,14 @@ namespace UserSideWEB.DataLayer
         }
 
 
-        public async Task Delete<T>(long id)
+        public async Task Delete<T>(long id, int Idposition = 0)
         {
             Type type = typeof(T);
+            PropertyInfo[] propertyInfos = type.GetProperties();
             using (var connection = this.connection)
             {
                 await connection.OpenAsync();
-                String commandString = "delete from " + type.Name + " where Id = @Id";
+                String commandString = "delete from " + type.Name + " where "+ propertyInfos[Idposition].Name +" = @Id";
                 using (var command = connection.CreateCommand())
                 {
                     command.CommandText = commandString;

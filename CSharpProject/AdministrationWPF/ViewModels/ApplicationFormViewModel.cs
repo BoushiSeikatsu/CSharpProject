@@ -28,7 +28,7 @@ namespace AdministrationWPF.ViewModels
             Applications = new ObservableCollection<ApplicationFormItem>();
         }
 
-        public async Task createApplicationsAsync()
+        public async Task CreateApplicationsAsync()
         {
             List<ApplicationForm> allApps = await _dataLayer.GetAllApplicationFormsAsync();
             foreach (ApplicationForm app in allApps)
