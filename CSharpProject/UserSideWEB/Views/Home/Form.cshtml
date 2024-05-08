@@ -2,7 +2,10 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    //Including jquery library
 }
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 @model CreateApplicationForm
 @using (Html.BeginForm())
 {
@@ -41,5 +44,149 @@
         @Html.TextBoxFor(x => x.PSC)
         @Html.ValidationMessageFor(x => x.PSC)
     </div>
+    <div>
+        @Html.LabelFor(x => x.FirstSchool)
+        <!--<input type="text" id="textInput">-->
+        @Html.TextBoxFor(x => x.FirstSchool, new { @id = "school1" })
+        @Html.LabelFor(x => x.FirstProgram)
+        @Html.DropDownListFor(x => x.FirstProgram, new SelectList(new List<string>()), new {@id = "programy1"})
+        <!--<select id="comboBox"></select>-->
+        @Html.ValidationMessageFor(x => x.FirstProgram)
+    </div>
+    <div>
+        <span id="output"></span>
+    </div>
+    <div>
+        @Html.LabelFor(x => x.SecondSchool)
+        @Html.TextBoxFor(x => x.SecondSchool, new { @id = "school2" })
+        @Html.LabelFor(x => x.SecondProgram)
+        @Html.DropDownListFor(x => x.SecondProgram, new SelectList(new List<string>()), new { @id = "programy2" })
+        @Html.ValidationMessageFor(x => x.SecondProgram)
+    </div>
+    <div>
+        <span id="output2"></span>
+    </div>
+    <div>
+        @Html.LabelFor(x => x.ThirdSchool)
+        @Html.TextBoxFor(x => x.ThirdSchool, new { @id = "school3" })
+        @Html.LabelFor(x => x.ThirdProgram)
+        @Html.DropDownListFor(x => x.ThirdProgram, new SelectList(new List<string>()), new { @id = "programy3" })
+        @Html.ValidationMessageFor(x => x.ThirdProgram)
+    </div>
+    <div>
+        <span id="output3"></span>
+    </div>
     <button type ="submit">Odeslat</button>
 }
+
+@section scripts {
+    <script>
+        //School hints part
+        $(document).ready(function () {
+            $('#school1').on('input', function () {
+                var inputText = $(this).val();
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("GetSchoolHint", "Home")',
+                    data: { inputText: inputText },
+                    success: function (response) {
+                        $('#output').text(response.text);
+                    },
+                    error: function () {
+                        $('#output').text('Škola není v databázi.');
+                    }
+                });
+            });
+            $('#school2').on('input', function () {
+                var inputText = $(this).val();
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("GetSchoolHint", "Home")',
+                    data: { inputText: inputText },
+                    success: function (response) {
+                        $('#output2').text(response.text);
+                    },
+                    error: function () {
+                        $('#output2').text('Škola není v databázi.');
+                    }
+                });
+            });
+            $('#school3').on('input', function () {
+                var inputText = $(this).val();
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("GetSchoolHint", "Home")',
+                    data: { inputText: inputText },
+                    success: function (response) {
+                        $('#output3').text(response.text);
+                    },
+                    error: function () {
+                        $('#output3').text('Škola není v databázi.');
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+        //ComboBox options part
+        $(document).ready(function () {
+            // Function to update combo box options
+            function updateComboBox(id,options) {
+                var comboBox = $(id);
+                comboBox.empty(); // Clear existing options
+
+                // Add new options
+                $.each(options, function (index, option) {
+                    comboBox.append($('<option>').text(option));
+                });
+            }
+            
+            // Make AJAX call to get options and update combo box
+            $('#school1').on('input', function () {
+                var schoolName = $(this).val();
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("GetOptions", "Home")',
+                    data: { schoolName: schoolName },
+                    success: function (response) {
+                        updateComboBox("#programy1", response);
+                    },
+                    error: function () {
+                        //alert('Error occurred while fetching options.');
+                    }
+                });
+            });
+
+            $('#school2').on('input', function () {
+                var schoolName = $(this).val();
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("GetOptions", "Home")',
+                    data: { schoolName: schoolName },
+                    success: function (response) {
+                        updateComboBox("#programy2", response);
+                    },
+                    error: function () {
+                        //alert('Error occurred while fetching options.');
+                    }
+                });
+            });
+
+            $('#school3').on('input', function () {
+                var schoolName = $(this).val();
+                $.ajax({
+                    type: 'GET',
+                    url: '@Url.Action("GetOptions", "Home")',
+                    data: { schoolName: schoolName },
+                    success: function (response) {
+                        updateComboBox("#programy3", response);
+                    },
+                    error: function () {
+                        //alert('Error occurred while fetching options.');
+                    }
+                });
+            });
+        });
+    </script>
+}
+

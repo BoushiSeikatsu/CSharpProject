@@ -16,7 +16,7 @@ namespace UserSideWEB.Models
         [EmailAddress]
         [Required]
         public string Email { get; set; }
-        [Display(Name = "Ulic")]
+        [Display(Name = "Ulice")]
         [Required]
         public string Street { get; set; }
         [Display(Name = "Město")]
@@ -25,5 +25,19 @@ namespace UserSideWEB.Models
         [Display(Name = "PSČ")]
         [Required]
         public string PSC { get; set; }
+        [Display(Name = "Název školy")]
+        [Required]
+        public string FirstSchool { get; set; }
+        [Display(Name = "První studijní program")]
+        [Required]
+        public string FirstProgram { get; set; }
+        [Display(Name = "Název školy")]
+        public string? SecondSchool { get; set; }
+        [Display(Name = "Druhý studijní program")]
+        public string? SecondProgram { get; set; }
+        [Display(Name = "Název školy")]
+        public string? ThirdSchool { get; set; }
+        [Display(Name = "Třetí studijní program")]
+        public string? ThirdProgram {  get; set; }
     }
 }

@@ -268,18 +268,19 @@ namespace UserSideWEB.DataLayer
         }
 
 
-        public async Task<int> GetCount<T>()
+        public async Task<int> GetCount<T,IDType>(IDType id)
         {
             Type type = typeof(T);
             PropertyInfo[] propertyInfos = type.GetProperties();
             using (var connection = this.connection)
             {
                 await connection.OpenAsync();
-                String commandString = "select count(*) from " + type.Name;
+                String commandString = "select count(*) from " + type.Name + " where "+ propertyInfos[0].Name + " = @id";
                 Console.WriteLine(commandString);
                 using (var command = connection.CreateCommand())
                 {
                     command.CommandText = commandString;
+                    command.Parameters.AddWithValue("id", id);
                     using (var reader = await command.ExecuteReaderAsync())
                     {
                         while (await reader.ReadAsync())

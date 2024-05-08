@@ -14,7 +14,20 @@ namespace UserSideWEB.DataLayer
         {
             return await orm.GetAll<HighSchool>();
         }
-
+        public async Task<HighSchool> GetHighSchoolByNameAsync(string schoolName)
+        {
+            List<HighSchool> highSchools = await GetAllHighSchoolsAsync();
+            HighSchool selectedSchool = null;
+            foreach (var highSchool in highSchools)
+            {
+                if (highSchool.Name.Contains(schoolName))
+                {
+                    selectedSchool = highSchool;
+                    break;
+                }
+            }
+            return selectedSchool;
+        }
         public async Task<List<Student>> GetAllStudentsAsync()
         {
             return await orm.GetAll<Student>();
@@ -23,6 +36,20 @@ namespace UserSideWEB.DataLayer
         public async Task<List<StudyProgram>> GetAllStudyProgramsAsync()
         {
             return await orm.GetAll<StudyProgram>();
+        }
+
+        public async Task<List<StudyProgram>> GetAllStudyProgramsForSchoolAsync(HighSchool highSchool)
+        {
+            List<StudyProgram> programs = await GetAllStudyProgramsAsync();
+            List<StudyProgram> result = new List<StudyProgram>();
+            foreach(StudyProgram program in programs)
+            {
+                if(program.Id_school == highSchool.Id_school)
+                {
+                    result.Add(program);
+                }
+            }
+            return result;
         }
 
         public async Task<List<ApplicationForm>> GetAllApplicationFormsAsync()
@@ -204,6 +231,23 @@ namespace UserSideWEB.DataLayer
         public async Task InsertHighSchoolAsync(HighSchool highSchool)
         {
             await orm.Insert<HighSchool>(highSchool);
+        }
+        public async Task InsertStudentAsync(Student student)
+        {
+            await orm.Insert<Student>(student,false);
+        }
+        public async Task InsertProgramApplicationAsync(ProgramApplication programApplication)
+        {
+            await orm.Insert<ProgramApplication>(programApplication,false);
+        }
+        public async Task<bool> StudentExists(string id_card)
+        {
+            int i = await orm.GetCount<Student,string>(id_card);
+            if(i != 0)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }
