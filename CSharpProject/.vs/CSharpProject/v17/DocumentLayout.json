@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|d:\\csharpprojects\\csharpproject\\csharpproject\\usersideweb\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC298371-2FB2-4364-9270-75FC104087E9}|UserSideWEB\\UserSideWEB.csproj|solutionrelative:usersideweb\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -166,11 +170,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "Confirm.cshtml",
+              "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Views\\Home\\Confirm.cshtml",
+              "RelativeDocumentMoniker": "UserSideWEB\\Views\\Home\\Confirm.cshtml",
+              "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Views\\Home\\Confirm.cshtml",
+              "RelativeToolTip": "UserSideWEB\\Views\\Home\\Confirm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T12:13:06.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BaseController.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Controllers\\BaseController.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Controllers\\BaseController.cs",
@@ -183,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Program.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Program.cs",
@@ -202,14 +219,14 @@
               "RelativeDocumentMoniker": "UserSideWEB\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Controllers\\HomeController.cs",
               "RelativeToolTip": "UserSideWEB\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAIwE0AAAAVAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAcwEgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T09:23:16.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DataLayer.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\DataLayer\\DataLayer.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\DataLayer\\DataLayer.cs",
@@ -222,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CreateApplicationForm.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\CreateApplicationForm.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Models\\CreateApplicationForm.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ORM.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\DataLayer\\ORM.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\DataLayer\\ORM.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ApplicationFormView.xaml.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\ApplicationFormView.xaml.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\ApplicationFormView.xaml.cs",
@@ -260,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "HighSchoolView.xaml.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolView.xaml.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\HighSchoolView.xaml.cs",
@@ -272,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "HighSchoolEditView.xaml",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolEditView.xaml",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\HighSchoolEditView.xaml",
@@ -283,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "HighSchoolView.xaml",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolView.xaml",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\HighSchoolView.xaml",
@@ -294,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ApplicationFormView.xaml",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\ApplicationFormView.xaml",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\ApplicationFormView.xaml",
@@ -305,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "HighSchoolEditView.xaml.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\HighSchoolEditView.xaml.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\HighSchoolEditView.xaml.cs",
@@ -317,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ApplicationFormEditView.xaml",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\ApplicationFormEditView.xaml",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\ApplicationFormEditView.xaml",
@@ -328,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\MainWindow.xaml",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\ViewModels\\MainViewModel.cs",
@@ -351,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\App.xaml.cs",
@@ -363,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\App.xaml",
               "RelativeDocumentMoniker": "AdministrationWPF\\App.xaml",
@@ -374,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Models\\ErrorViewModel.cs",
@@ -386,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "StudyProgram.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\StudyProgram.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Models\\StudyProgram.cs",
@@ -398,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Views\\MainWindow.xaml.cs",
@@ -410,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ObservableObject.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Core\\ObservableObject.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Core\\ObservableObject.cs",
@@ -422,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ViewModel.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Core\\ViewModel.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Core\\ViewModel.cs",
@@ -434,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "AdministrationWPF.csproj",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\AdministrationWPF.csproj",
               "RelativeDocumentMoniker": "AdministrationWPF\\AdministrationWPF.csproj",
@@ -446,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "INavigationService.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Interfaces\\INavigationService.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Interfaces\\INavigationService.cs",
@@ -458,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "IDatabaseService.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Interfaces\\IDatabaseService.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Interfaces\\IDatabaseService.cs",
@@ -470,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Core\\RelayCommand.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Core\\RelayCommand.cs",
@@ -482,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "NavigationService.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Services\\NavigationService.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Services\\NavigationService.cs",
@@ -500,7 +517,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form.cshtml",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Views\\Home\\Form.cshtml",
               "RelativeDocumentMoniker": "UserSideWEB\\Views\\Home\\Form.cshtml",
@@ -513,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HintService.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Services\\HintService.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Services\\HintService.cs",
@@ -526,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Services\\DatabaseService.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Services\\DatabaseService.cs",
@@ -539,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ApplicationFormItem.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\ApplicationFormItem.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Models\\ApplicationFormItem.cs",
@@ -551,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HighSchoolViewModel.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\HighSchoolViewModel.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\ViewModels\\HighSchoolViewModel.cs",
@@ -563,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\Student.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Models\\Student.cs",
@@ -576,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplicationFormViewModel.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\ViewModels\\ApplicationFormViewModel.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\ViewModels\\ApplicationFormViewModel.cs",
@@ -589,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ApplicationForm.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\ApplicationForm.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Models\\ApplicationForm.cs",
@@ -601,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "HighSchoolItem.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\HighSchoolItem.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Models\\HighSchoolItem.cs",
@@ -613,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ProgramApplication.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\ProgramApplication.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Models\\ProgramApplication.cs",
@@ -625,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HighSchool.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\UserSideWEB\\Models\\HighSchool.cs",
               "RelativeDocumentMoniker": "UserSideWEB\\Models\\HighSchool.cs",
@@ -637,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "StudyProgramItem.cs",
               "DocumentMoniker": "D:\\CSharpProjects\\CSharpProject\\CSharpProject\\AdministrationWPF\\Models\\StudyProgramItem.cs",
               "RelativeDocumentMoniker": "AdministrationWPF\\Models\\StudyProgramItem.cs",
